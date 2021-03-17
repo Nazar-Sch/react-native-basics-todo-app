@@ -37,7 +37,7 @@ export const MainScreen = () => {
   })
 
   if (loading) {
-    return <AppLoader textLoader='Loading...' />
+    return <AppLoader textLoader="Loading..." />
   }
 
   if (error) {
@@ -96,8 +96,8 @@ const styles = StyleSheet.create({
   },
   center: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   error: {
     fontSize: 22,

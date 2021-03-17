@@ -1,9 +1,9 @@
 export class Api {
-  static HEADERS = { 'Content-Type': 'application/json' }
+  static HEADERS = { "Content-Type": "application/json" }
 
   static async get(url) {
     try {
-      return await _request(url, 'GET')
+      return await _request(url, "GET")
     } catch (e) {
       console.log(e)
     }
@@ -11,7 +11,7 @@ export class Api {
 
   static async post(url, data = {}) {
     try {
-      return await _request(url, 'POST', data)
+      return await _request(url, "POST", data)
     } catch (e) {
       console.log(e)
     }
@@ -19,7 +19,7 @@ export class Api {
 
   static async patch(url, data = {}) {
     try {
-      return await _request(url, 'PATCH', data)
+      return await _request(url, "PATCH", data)
     } catch (e) {
       console.log(e)
     }
@@ -27,7 +27,7 @@ export class Api {
 
   static async delete(url) {
     try {
-      return await _request(url, 'DELETE')
+      return await _request(url, "DELETE")
     } catch (e) {
       console.log(e)
     }

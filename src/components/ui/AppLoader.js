@@ -1,5 +1,5 @@
 import React from "react"
-import { ActivityIndicator, StyleSheet, View, Text } from "react-native"
+import { ActivityIndicator, StyleSheet, View } from "react-native"
 import { THEME } from "../../theme"
 import { AppText } from "./AppText"
 

@@ -1,8 +1,8 @@
 import { CHANGE_SCREEN } from "../constants"
 
 const handlers = {
-  [CHANGE_SCREEN]: (state, payload) => payload,
-  DEFAULT: (state) => state
+  [CHANGE_SCREEN]: (payload) => payload,
+  DEFAULT: (state) => state,
 }
 
 export const screenReducer = (state, action) => {
